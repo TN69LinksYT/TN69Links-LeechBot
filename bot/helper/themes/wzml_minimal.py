@@ -8,8 +8,8 @@ class WZMLStyle:
     ST_BN2_URL = 'https://t.me/TN69Links'
     ST_MSG = '''<i>Tʜɪs Bᴏᴛ Cᴀɴ Mɪʀʀᴏʀ Aʟʟ Yᴏᴜʀ Lɪɴᴋs|Fɪʟᴇs|Tᴏʀʀᴇɴᴛs Tᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ Oʀ Aɴʏ Rᴄʟᴏɴᴇ Cʟᴏᴜᴅ Oʀ Tᴏ Tᴇʟᴇɢʀᴀᴍ Oʀ Tᴏ Dᴅʟ Sᴇʀᴠᴇʀs.</i>
 <b>Type {help_command} Tᴏ Gᴇᴛ A Lɪsᴛ Oғ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs</b>'''
-    ST_BOTPM = '''<i>Nᴏᴡ, Tʜɪs Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Aʟʟ Yᴏᴜʀ Fɪʟᴇs Aɴᴅ Lɪɴᴋs Hᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</i>'''
-    ST_UNAUTH = '''<i>You Yᴏᴜ Aʀᴇ Nᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ WZML-X Mirror-Leech bot</i>'''
+    ST_BOTPM = '''<b><i>Nᴏᴡ, Tʜɪs Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Aʟʟ Yᴏᴜʀ Fɪʟᴇs Aɴᴅ Lɪɴᴋs Hᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</i></b>'''
+    ST_UNAUTH = '''<b><i>You Yᴏᴜ Aʀᴇ Nᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ WZML-X Mirror-Leech bot</i></b>'''
     OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Is Nᴏᴛ Yᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ Yᴏᴜʀ Oᴡɴ.</i>'''
     USED_TOKEN = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Aʟʀᴇᴀᴅʏ Usᴇᴅ!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ A Nᴇᴡ Oɴᴇ.</i>'''
     LOGGED_PASSWORD = '''<b>Bᴏᴛ Aʟʀᴇᴀᴅʏ Lᴏɢɢᴇᴅ Iɴ Vɪᴀ Pᴀssᴡᴏʀᴅ</b>\n\n<i>Nᴏ Nᴇᴇᴅ ᴛᴏ Aᴄᴄᴇᴘᴛ Tᴇᴍᴘ Tᴏᴋᴇɴs.</i>'''
