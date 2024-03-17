@@ -245,9 +245,9 @@ class WZMLStyle:
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''<i>Nᴏ Aᴄᴛɪᴠᴇ Dᴏᴡɴʟᴏᴀᴅs!</i>
     
-⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+⌬ <b><i>Bᴏᴛ Sᴛᴀᴛs</i></b>
+┠ <b>ᴄᴘᴜ:</b> {cpu}% | <b>ғ:</b> {free} [{free_p}%]
+┖ <b>ʀᴀᴍ:</b> {ram} | <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
@@ -260,39 +260,39 @@ class WZMLStyle:
 ┖<b> Lᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
 ➲ <u><b>Aᴠᴀɪʟᴀʙʟᴇ Aʀɢs :</b></u>
-• <b>-s</b> or <b>-set</b>: Sᴇᴛ Dɪʀᴇᴄᴛʟʏ Vɪᴀ Aʀɢ'''
+• <b>-s</b> Oʀ <b>-set</b>: Sᴇᴛ Dɪʀᴇᴄᴛʟʏ Vɪᴀ Aʀɢ'''
 
     UNIVERSAL = '''㊂ <b><u>Uɴɪᴠᴇʀsᴀʟ Sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> User Session :</b> <code>{USESS}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b> ʏᴛ-ᴅʟᴘ Oᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
+┠<b> Dᴀɪʟʏ Tᴀsᴋs :</b> <code>{DT}</code> per day
+┠<b> Lᴀsᴛ Bᴏᴛ Usᴇᴅ :</b> <code>{LAST_USED}</code>
+┠<b> Usᴇʀ Sᴇssɪᴏɴ :</b> <code>{USESS}</code>
+┠<b> MᴇᴅɪᴀIɴғᴏ Mᴏᴅᴇ :</b> <code>{MEDIAINFO}</code>
+┠<b> Sᴀᴠᴇ Mᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
+┖<b> Usᴇʀ Bᴏᴛ ᴘᴍ :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''㊂ <b><u>Mɪʀʀᴏʀ/Cʟᴏɴᴇ Sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┎<b> RCʟᴏɴᴇ Cᴏɴғɪɢ :</b> <i>{RCLONE}</i>
+┠<b> Mɪʀʀᴏʀ Pʀᴇғɪx :</b> <code>{MPREFIX}</code>
+┠<b> Mɪʀʀᴏʀ Sᴜғғɪx :</b> <code>{MSUFFIX}</code>
+┠<b> Mɪʀʀᴏʀ RᴇᴍNᴀᴍᴇ :</b> <code>{MREMNAME}</code>
+┠<b> ᴅᴅʟ Sᴇʀᴠᴇʀ(s) :</b> <i>{DDL_SERVER}</i>
+┠<b> Usᴇʀ ᴛᴅ Mᴏᴅᴇ :</b> <i>{TMODE}</i>
+┠<b> Tᴏᴛᴀʟ Usᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
+┖<b> Dᴀɪʟʏ Mɪʀʀᴏʀ :</b> <code>{DM}</code> per day'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''㊂ <b><u>Lᴇᴇᴄʜ Sᴇᴛᴛɪɴɢs Fᴏʀ {NAME}</u></b>
 
 ┎<b> Dᴀɪʟʏ Lᴇᴇᴄʜ : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┠<b> Lᴇᴇᴄʜ Tʏᴘᴇ :</b> <i>{LTYPE}</i>
+┠<b> Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ :</b> <i>{THUMB}</i>
+┠<b> Lᴇᴇᴄʜ Sᴘʟɪᴛ Sɪᴢᴇ :</b> <code>{SPLIT_SIZE}</code>
+┠<b> Eǫᴜᴀʟ Sᴘʟɪᴛs :</b> <i>{EQUAL_SPLIT}</i>
+┠<b> Mᴇᴅɪᴀ Gʀᴏᴜᴘ :</b> <i>{MEDIA_GROUP}</i>
+┠<b> Lᴇᴇᴄʜ Cᴀᴘᴛɪᴏɴ :</b> <code>{LCAPTION}</code>
+┠<b> Lᴇᴇᴄʜ Pʀᴇғɪx :</b> <code>{LPREFIX}</code>
+┠<b> Lᴇᴇᴄʜ Sᴜғғɪx :</b> <code>{LSUFFIX}</code>
+┠<b> Lᴇᴇᴄʜ Dᴜᴍᴘs :</b> <code>{LDUMP}</code>
+┖<b> Lᴇᴇᴄʜ RᴇᴍNᴀᴍᴇ :</b> <code>{LREMNAME}</code>'''
