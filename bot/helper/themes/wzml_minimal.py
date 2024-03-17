@@ -2,12 +2,12 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Rᴇᴘᴏ'
-    ST_BN1_URL = 'https://github.com/TN69Links-Saravana/Leech-Bot'
+    ST_BN1_NAME = 'Oᴡɴᴇʀ'
+    ST_BN1_URL = 'https://t.me/Cute_Boy_Saravana'
     ST_BN2_NAME = 'Uᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/TN69Links'
     ST_MSG = '''<i>Tʜɪs Bᴏᴛ Cᴀɴ Mɪʀʀᴏʀ Aʟʟ Yᴏᴜʀ Lɪɴᴋs|Fɪʟᴇs|Tᴏʀʀᴇɴᴛs Tᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ Oʀ Aɴʏ Rᴄʟᴏɴᴇ Cʟᴏᴜᴅ Oʀ Tᴏ Tᴇʟᴇɢʀᴀᴍ Oʀ Tᴏ Dᴅʟ Sᴇʀᴠᴇʀs.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
+<b>Type {help_command} Tᴏ Gᴇᴛ A Lɪsᴛ Oғ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>Nᴏᴡ, Tʜɪs Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Aʟʟ Yᴏᴜʀ Fɪʟᴇs Aɴᴅ Lɪɴᴋs Hᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</i>'''
     ST_UNAUTH = '''<i>You Yᴏᴜ Aʀᴇ Nᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Is Nᴏᴛ Yᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ Yᴏᴜʀ Oᴡɴ.</i>'''
@@ -108,12 +108,12 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''⌬ <b><i>Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
 ┖ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
+    RESTARTED = '''⌬ <b><i>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ!</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
@@ -122,29 +122,29 @@ class WZMLStyle:
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
+    LINKS_START = """<b><i>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ</i></b>
 ┠ <b>Mode:</b> {Mode}
 ┖ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+    LINKS_SOURCE = """➲ <b>Sᴏᴜʀᴄᴇ :</b>
+┖ <b>Aᴅᴅᴇᴅ Oɴ :</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>Lɪɴᴋ :</b> <a href='{msg_link}'>Cʟɪᴄᴋ Hᴇʀᴇ</a>"
+    L_LOG_START =           "➲ <b><u>Lᴇᴇᴄʜ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>Usᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>Sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>Cʟɪᴄᴋ Hᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '┠ <b>Sɪᴢᴇ : </b>{Size}\n'
+    ELAPSE =                '┠ <b>Eʟᴀᴘsᴇᴅ : </b>{Time}\n'
+    MODE =                  '┠ <b>Mᴏᴅᴇ : </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '┠ <b>Tᴏᴛᴀʟ Fɪʟᴇs : </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>Cᴏʀʀᴜᴘᴛᴇᴅ Fɪʟᴇs : </b>{Corrupt}\n'
+    L_CC =                  '┖ <b>Bʏ : </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
