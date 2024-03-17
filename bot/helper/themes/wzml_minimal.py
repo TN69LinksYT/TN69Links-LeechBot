@@ -4,11 +4,11 @@ class WZMLStyle:
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Repo'
     ST_BN1_URL = 'https://github.com/TN69Links-Saravana/Leech-Bot'
-    ST_BN2_NAME = 'Updates'
+    ST_BN2_NAME = 'Uᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/TN69Links'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
+    ST_MSG = '''<i>Tʜɪs Bᴏᴛ Cᴀɴ Mɪʀʀᴏʀ Aʟʟ Yᴏᴜʀ Lɪɴᴋs|Fɪʟᴇs|Tᴏʀʀᴇɴᴛs Tᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ Oʀ Aɴʏ Rᴄʟᴏɴᴇ Cʟᴏᴜᴅ Oʀ Tᴏ Tᴇʟᴇɢʀᴀᴍ Oʀ Tᴏ Dᴅʟ Sᴇʀᴠᴇʀs.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_BOTPM = '''<i>Nᴏᴡ, Tʜɪs Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Aʟʟ Yᴏᴜʀ Fɪʟᴇs Aɴᴅ Lɪɴᴋs Hᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</i>'''
     ST_UNAUTH = '''<i>You Yᴏᴜ Aʀᴇ Nᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Is Nᴏᴛ Yᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ Yᴏᴜʀ Oᴡɴ.</i>'''
     USED_TOKEN = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Aʟʀᴇᴀᴅʏ Usᴇᴅ!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ A Nᴇᴡ Oɴᴇ.</i>'''
@@ -22,21 +22,21 @@ class WZMLStyle:
     ACTIVATED = '✅️ Aᴄᴛɪᴠᴀᴛᴇᴅ ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Already Bot Login In!</b>'
-    INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
-    PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
-    LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
+    LOGGED_IN = '<b>Aʟʀᴇᴀᴅʏ Bᴏᴛ Lᴏɢɪɴ Iɴ!</b>'
+    INVALID_PASS = '<b>Iɴᴠᴀʟɪᴅ Pᴀssᴡᴏʀᴅ!</b>\n\nKɪɴᴅʟʏ Pᴜᴛ Tʜᴇ Cᴏʀʀᴇᴄᴛ Pᴀssᴡᴏʀᴅ .'
+    PASS_LOGGED = '<b>Bᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ Lᴏɢɪɴ Sᴜᴄᴄᴇssғᴜʟʟʏ!</b>'
+    LOGIN_USED = '<b>Bᴏᴛ Lᴏɢɪɴ Usᴀɢᴇ :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
     LOG_DISPLAY_BT = '📑 Log Display'
     WEB_PASTE_BT = '📨 Web Paste (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
-    CLOSE_BT = 'Close'
+    BASIC_BT = 'Bᴀsɪᴄ'
+    USER_BT = 'Usᴇʀs'
+    MICS_BT = 'Mɪᴄs'
+    O_S_BT = 'Oᴡɴᴇʀ & Sᴜᴅᴏs'
+    CLOSE_BT = 'Cʟᴏsᴇ'
     HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
