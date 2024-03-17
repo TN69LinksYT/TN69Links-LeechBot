@@ -3,23 +3,23 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
+    ST_BN1_URL = 'https://github.com/TN69Links-Saravana/Leech-Bot'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN2_URL = 'https://t.me/TN69Links'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
-    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
-    ACTIVATE_BUTTON = 'Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
-<b>Temp Token:</b> <code>{token}</code>
-<b>Validity:</b> {validity}'''
+    ST_UNAUTH = '''<i>You Yᴏᴜ Aʀᴇ Nᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ WZML-X Mirror-Leech bot</i>'''
+    OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Is Nᴏᴛ Yᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ Yᴏᴜʀ Oᴡɴ.</i>'''
+    USED_TOKEN = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ Aʟʀᴇᴀᴅʏ Usᴇᴅ!</b>\n\n<i>Kɪɴᴅʟʏ Gᴇɴᴇʀᴀᴛᴇ A Nᴇᴡ Oɴᴇ.</i>'''
+    LOGGED_PASSWORD = '''<b>Bᴏᴛ Aʟʀᴇᴀᴅʏ Lᴏɢɢᴇᴅ Iɴ Vɪᴀ Pᴀssᴡᴏʀᴅ</b>\n\n<i>Nᴏ Nᴇᴇᴅ ᴛᴏ Aᴄᴄᴇᴘᴛ Tᴇᴍᴘ Tᴏᴋᴇɴs.</i>'''
+    ACTIVATE_BUTTON = 'Aᴄᴛɪᴠᴀᴛᴇ Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ'
+    TOKEN_MSG = '''<b><u>Gᴇɴᴇʀᴀᴛᴇᴅ Tᴇᴍᴘᴏʀᴀʀʏ Lᴏɢɪɴ Tᴏᴋᴇɴ!</u></b>
+<b>Tᴇᴍᴘ Tᴏᴋᴇɴ :</b> <code>{token}</code>
+<b>Vᴀʟɪᴅɪᴛʏ :</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '✅️ Activated ✅'
+    ACTIVATED = '✅️ Aᴄᴛɪᴠᴀᴛᴇᴅ ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
