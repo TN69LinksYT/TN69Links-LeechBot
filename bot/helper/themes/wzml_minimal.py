@@ -68,63 +68,63 @@ class WZMLStyle:
 ┠ <b>Download Data:</b> {dl_data}
 ┠ <b>Pkts Sent:</b> {pkt_sent}k
 ┠ <b>Pkts Received:</b> {pkt_recv}k
-┖ <b>Total I/O Data:</b> {tl_data}
+┖ <b>Tᴏᴛᴀʟ I/O Dᴀᴛᴀ :</b> {tl_data}
 
-┎ <b>CPU :</b>
+┎ <b>ᴄᴘᴜ :</b>
 ┃ {cpu_bar} {cpu}%
-┠ <b>CPU Frequency :</b> {cpu_freq}
-┠ <b>System Avg Load :</b> {sys_load}
-┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┠ <b>ᴄᴘᴜ Fʀᴇǫᴜᴇɴᴄʏ :</b> {cpu_freq}
+┠ <b>Sʏsᴛᴇᴍ Aᴠɢ Lᴏᴀᴅ :</b> {sys_load}
+┠ <b>P-Cᴏʀᴇ(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
+┠ <b>Tᴏᴛᴀʟ Cᴏʀᴇ(s) :</b> {total_core}
+┖ <b>Usᴀʙʟᴇ ᴄᴘᴜ(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-┠ <b>Bot Updated :</b> {last_commit}
-┠ <b>Current Version :</b> {bot_version}
-┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
+    REPO_STATS = '''⌬ <b><i>ʀᴇᴘᴏ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+┠ <b>Bᴏᴛ Uᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
+┠ <b>Cᴜʀʀᴇɴᴛ Vᴇʀsɪᴏɴ :</b> {bot_version}
+┠ <b>Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ :</b> {lat_version}
+┖ <b>Lᴀsᴛ CʜᴀɴɢᴇLᴏɢ :</b> {commit_details}
 
-⌬ <b>REMARKS :</b> <code>{remarks}</code>
+⌬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
-┠ <b>Direct Limit :</b> {DL} GB
-┠ <b>Torrent Limit :</b> {TL} GB
-┠ <b>GDrive Limit :</b> {GL} GB
-┠ <b>YT-DLP Limit :</b> {YL} GB
-┠ <b>Playlist Limit :</b> {PL}
-┠ <b>Mega Limit :</b> {ML} GB
-┠ <b>Clone Limit :</b> {CL} GB
-┖ <b>Leech Limit :</b> {LL} GB
+    BOT_LIMITS = '''⌬ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
+┠ <b>Dɪʀᴇᴄᴛ Lɪᴍɪᴛ :</b> {DL} GB
+┠ <b>Tᴏʀʀᴇɴᴛ Lɪᴍɪᴛ :</b> {TL} GB
+┠ <b>GDʀɪᴠᴇ Lɪᴍɪᴛ :</b> {GL} GB
+┠ <b>ʏᴛ-ᴅʟᴘ Lɪᴍɪᴛ :</b> {YL} GB
+┠ <b>Pʟᴀʏʟɪsᴛ Lɪᴍɪᴛ :</b> {PL}
+┠ <b>Mᴇɢᴀ Lɪᴍɪᴛ :</b> {ML} GB
+┠ <b>Cʟᴏɴᴇ Lɪᴍɪᴛ :</b> {CL} GB
+┖ <b>Lᴇᴇᴄʜ Lɪᴍɪᴛ :</b> {LL} GB
 
-┎ <b>Token Validity :</b> {TV}
-┠ <b>User Time Limit :</b> {UTI} / task
-┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┎ <b>Tᴏᴋᴇɴ Vᴀʟɪᴅɪᴛʏ :</b> {TV}
+┠ <b>Usᴇʀ Tɪᴍᴇ Lɪᴍɪᴛ :</b> {UTI} / task
+┠ <b>Usᴇʀ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {UT}
+┖ <b>Bᴏᴛ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {BT}
     '''
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>Restarting...</i>'
+    RESTARTING = '<i>Rᴇsᴛᴀʀᴛɪɴɢ...</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
     RESTART_SUCCESS = '''⌬ <b><i>Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
-┠ <b>Date:</b> {date}
-┠ <b>Time:</b> {time}
-┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
+┠ <b>Dᴀᴛᴇ :</b> {date}
+┠ <b>Tɪᴍᴇ :</b> {time}
+┠ <b>TɪᴍᴇZᴏɴᴇ :</b> {timz}
+┖ <b>Vᴇʀsɪᴏɴ :</b> {version}'''
     RESTARTED = '''⌬ <b><i>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ!</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
+    PING = '<i>Sᴛᴀʀᴛɪɴɢ Pɪɴɢ..</i>'
+    PING_VALUE = '<b>Pᴏɴɢ</b>\n<code>{value} ᴍs..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b><i>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ</i></b>
-┠ <b>Mode:</b> {Mode}
-┖ <b>By:</b> {Tag}\n\n"""
+┠ <b>Mᴏᴅᴇ :</b> {Mode}
+┖ <b>Bʏ :</b> {Tag}\n\n"""
     LINKS_SOURCE = """➲ <b>Sᴏᴜʀᴄᴇ :</b>
 ┖ <b>Aᴅᴅᴇᴅ Oɴ :</b> {On}
 ------------------------------------------
