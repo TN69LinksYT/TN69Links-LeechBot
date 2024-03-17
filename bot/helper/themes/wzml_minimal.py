@@ -2,7 +2,7 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
+    ST_BN1_NAME = 'Rᴇᴘᴏ'
     ST_BN1_URL = 'https://github.com/TN69Links-Saravana/Leech-Bot'
     ST_BN2_NAME = 'Uᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/TN69Links'
@@ -28,8 +28,8 @@ class WZMLStyle:
     LOGIN_USED = '<b>Bᴏᴛ Lᴏɢɪɴ Usᴀɢᴇ :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 Log Display'
-    WEB_PASTE_BT = '📨 Web Paste (SB)'
+    LOG_DISPLAY_BT = '📑 Lᴏɢ Dɪsᴘʟᴀʏ'
+    WEB_PASTE_BT = '📨 Wᴇʙ Pᴀsᴛᴇ (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
     BASIC_BT = 'Bᴀsɪᴄ'
@@ -37,11 +37,11 @@ class WZMLStyle:
     MICS_BT = 'Mɪᴄs'
     O_S_BT = 'Oᴡɴᴇʀ & Sᴜᴅᴏs'
     CLOSE_BT = 'Cʟᴏsᴇ'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    HELP_HEADER = "㊂ <b><i>Hᴇʟᴘ Gᴜɪᴅᴇ Mᴇɴᴜ!</i></b>\n\n<b>Nᴏᴛᴇ: <i>Cʟɪᴄᴋ Oɴ Aɴʏ CMD Tᴏ Sᴇᴇ Mᴏʀᴇ Mɪɴᴏʀ Dᴇᴛᴀʟɪs.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-┖ <b>Bot Uptime :</b> {bot_uptime}
+    BOT_STATS = '''⌬ <b><i>Bᴏᴛ Sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+┖ <b>Bᴏᴛ Uᴘᴛɪᴍᴇ :</b> {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
 ┃ {ram_bar} {ram}%
@@ -285,7 +285,7 @@ class WZMLStyle:
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
-┎<b> Daily Leech : </b><code>{DL}</code> per day
+┎<b> Dᴀɪʟʏ Lᴇᴇᴄʜ : </b><code>{DL}</code> per day
 ┠<b> Leech Type :</b> <i>{LTYPE}</i>
 ┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
 ┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
