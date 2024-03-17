@@ -192,7 +192,7 @@ class WZMLStyle:
     SEED_SPEED =     '\n┠ <b>Sᴘᴇᴇᴅ : </b> {Speed} | '
     UPLOADED =                                     '<b>Uᴘʟᴏᴀᴅᴇᴅ : </b> {Upload}'
     RATIO =          '\n┠ <b>Rᴀᴛɪᴏ : </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
+    TIME =                                         '<b>Tɪᴍᴇ : </b> {Time}'
     SEED_ENGINE =    '\n┠ <b>Eɴɢɪɴᴇ :</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
@@ -201,7 +201,7 @@ class WZMLStyle:
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n┠ <b>Usᴇʀ :</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
+    ID =                                                        '<b>ɪᴅ :</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>Sᴇʟᴇᴄᴛ :</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
@@ -218,32 +218,32 @@ class WZMLStyle:
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
-    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
+    REFRESH = 'Pᴀɢᴇs\n{Page}'
     NEXT = '⫸'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
-    STOP_DUPLICATE = 'File/Folder is already available in Drive.\nHere are {content} list results:'
+    STOP_DUPLICATE = 'Fɪʟᴇ/Fᴏʟᴅᴇʀ Is Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ Iɴ Dʀɪᴠᴇ.\nHᴇʀᴇ Aʀᴇ {content} Lɪsᴛ Rᴇsᴜʟᴛs :'
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
+    COUNT_MSG = '<b>Cᴏᴜɴᴛɪɴɢ :</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '┠ <b>Sɪᴢᴇ : </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠ <b>Tʏᴘᴇ : </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠ <b>SᴜʙFᴏʟᴅᴇʀs : </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠ <b>Fɪʟᴇs : </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┖ <b>Bʏ : </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<b>Sᴇᴀʀᴄʜɪɴɢ Fᴏʀ <i>{NAME}</i></b>'
+    LIST_FOUND = '<b>Fᴏᴜɴᴅ {NO} Rᴇsᴜʟᴛ Fᴏʀ <i>{NAME}</i></b>'
+    LIST_NOT_FOUND = 'Nᴏ Rᴇsᴜʟᴛ Fᴏᴜɴᴅ Fᴏʀ <i>{NAME}</i>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<i>Nᴏ Aᴄᴛɪᴠᴇ Dᴏᴡɴʟᴏᴀᴅs!</i>
     
 ⌬ <b><i>Bot Stats</i></b>
 ┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
@@ -252,17 +252,17 @@ class WZMLStyle:
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''㊂ <b><u>Usᴇʀ Sᴇᴛᴛɪɴɢs :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┎<b> Nᴀᴍᴇ :</b> {NAME} ( <code>{ID}</code> )
+┠<b> UsᴇʀNᴀᴍᴇ :</b> {USERNAME}
+┠<b> Tᴇʟᴇɢʀᴀᴍ ᴅᴄ :</b> {DC}
+┖<b> Lᴀɴɢᴜᴀɢᴇ :</b> {LANG}
 
-➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+➲ <u><b>Aᴠᴀɪʟᴀʙʟᴇ Aʀɢs :</b></u>
+• <b>-s</b> or <b>-set</b>: Sᴇᴛ Dɪʀᴇᴄᴛʟʏ Vɪᴀ Aʀɢ'''
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''㊂ <b><u>Uɴɪᴠᴇʀsᴀʟ Sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
 ┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
 ┠<b> Daily Tasks :</b> <code>{DT}</code> per day
